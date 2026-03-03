@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: Demo-04-Welcome-Api
+
+  boot:
+    admin:
+      client:
+        url: http://localhost:1111/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+eureka:
+  client:
+    server-url:
+      defaultZone: http://localhost:8761/eureka
