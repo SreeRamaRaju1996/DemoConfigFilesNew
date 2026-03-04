@@ -21,4 +21,4 @@ eureka:
 server:
   port: 9091
 
-msg: Greet from config server
+msg: Greet from config server new version
