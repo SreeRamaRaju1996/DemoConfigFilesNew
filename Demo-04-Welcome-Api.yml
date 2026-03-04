@@ -17,3 +17,6 @@ eureka:
   client:
     server-url:
       defaultZone: http://localhost:8761/eureka
+
+
+msg: Welcome from config server
